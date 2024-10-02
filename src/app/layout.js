@@ -5,7 +5,7 @@ import Footer from "@/app/footer";
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`antialiased`}>
+            <body className={`antialiased min-h-screen flex flex-col max-w-screen`}>
                 <Navbar />
                 {children}
                 <Footer />
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
 
 export function Layout({ children }) {
     return (
-        <div className={`antialiased`}>
+        <div className={`antialiased min-h-screen flex flex-col max-w-screen`}>
             <Navbar />
             {children}
             <Footer />
