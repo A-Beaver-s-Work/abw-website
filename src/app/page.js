@@ -47,8 +47,8 @@ export default function Home() {
                             <div className="flex py-8">
                                 <Button className="text-lg bg-custom-yellow border border-border-yellow font-light text-black px-10 py-3 font-proxima rounded-lg uppercase">plant trees now </Button>
                             </div>
-                        </div>
-                    </div>
+                        </div>                
+                    </div>    
                 </Section>
             </main>
         </div>
