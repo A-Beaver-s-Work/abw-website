@@ -40,12 +40,6 @@ export default function Footer() {
 
                     <ul>
                         <li>
-                            <a href="/about/annualreport"
-                               className="inline-block py-2 text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
-                                Annual Report
-                            </a>
-                        </li>
-                        <li>
                             <a href="/blog"
                                className="inline-block py-2 text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
                                 Blog
@@ -60,7 +54,7 @@ export default function Footer() {
                         <li>
                             <a href="/careers"
                                className="inline-block py-2 text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
-                                Careers
+                                Join Us
                             </a>
                         </li>
                     </ul>
@@ -79,12 +73,6 @@ export default function Footer() {
                             </Button>
                         </li>
                         <li>
-                            <a href="/partnerships"
-                               className="inline-block py-2 text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
-                                Corporate Partnerships
-                            </a>
-                        </li>
-                        <li>
                             <a href="/states"
                                className="inline-block py-2 text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
                                 Your State
@@ -100,21 +88,15 @@ export default function Footer() {
 
                     <ul>
                         <li>
-                            <a href="/status"
+                            <a href="/order"
                                className="inline-block py-2 text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
-                                Order Status
+                                Order
                             </a>
                         </li>
                         <li>
                             <a href="/contact"
                                className="inline-block py-2 text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
                                 Contact Us
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/optout"
-                               className="inline-block py-2 text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
-                                Opt Out
                             </a>
                         </li>
                         <li>
@@ -138,21 +120,15 @@ export default function Footer() {
                 </div>
                 <div
                     className="border-l border-stone-300 pl-6 pr-8 w-1/6 space-y-4 small-col-12-12 medium-col-3-12 large-col-2-12 text-left">
-                    <h6 className="py-2 text-stone-500 text-lg font-proxima font-bold uppercase">
-                        Related Sites
-                    </h6>
+                    {/*<h6 className="py-2 text-stone-500 text-lg font-proxima font-bold uppercase">*/}
+                    {/*    Related Sites*/}
+                    {/*</h6>*/}
 
                     <ul>
                         <li>
-                            <a href="/farm"
+                            <a href="https://beaverworks.ll.mit.edu/CMS/bw/bwsi"
                                className="inline-block py-2 text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
-                                A Beaver's Work Farm
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/carbon"
-                               className="inline-block py-2 text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
-                                A Beaver's Work Carbon
+                                Beaver Works Summer Institute
                             </a>
                         </li>
                     </ul>
