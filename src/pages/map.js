@@ -8,7 +8,7 @@ export default function Map() {
         <div className="bg-light-gray h-full flex-grow">
             <div className={"h-14"}></div>
             <Section>
-                <div className="relative h-48 bg-[url('/img/hero.jpg')] bg-cover bg-center">
+                <div className="relative h-48 bg-[url('/img/hero.png')] bg-cover bg-center">
                     <div className="flex flex-col items-start justify-center h-full pl-10">
                         <p className="text-white font-extrabold text-6xl w-full font-proxima">MAP</p>
                     </div>

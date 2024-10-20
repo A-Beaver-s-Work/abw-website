@@ -6,7 +6,7 @@ import {Layout} from "@/app/layout";
 export default function Contact() {
     return (
         <Layout>
-            <div className="flex flex-col flex-grow items-center bg-light-gray bg-[url('/img/hero.jpg')] bg-cover">
+            <div className="flex flex-col flex-grow items-center bg-light-gray bg-[url('/img/hero.png')] bg-cover">
                 <div className={"h-14"}></div>
                 <Section>
                     <div className="relative w-screen h-48 bg-cover bg-center">

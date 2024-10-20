@@ -625,7 +625,7 @@ video {
 }
 
 .bg-\[url\(\'\/img\/hero\.jpg\'\)\] {
-  background-image: url('/img/hero.jpg');
+  background-image: url('/img/hero.png');
 }
 
 .bg-cover {
