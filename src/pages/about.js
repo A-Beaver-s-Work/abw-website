@@ -30,7 +30,7 @@ export default function About() {
                     </div>
                 </Section>
                 <Section>
-                    <Flex align="center" justify="center" className={"gap-8 mb-20 h-[28rem] py-5 "}>
+                    <Flex align="center" justify="center" className={"gap-10 mb-20 h-[28rem] py-5 "}>
                         <AboutCard title={"WHO WE ARE"}
                                    image={"https://images.unsplash.com/photo-1617050318658-a9a3175e34cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"}
                                    text={"The initiative is entirely student-run by 100+ BWSI alumni. Our teams are organized into Backend (13 students), Web Design (18), Copywriting (7), Outreach (17), and Social Media (11) and the rest are tree-planters. "}
@@ -46,8 +46,8 @@ export default function About() {
                                    text={"We will partner with nonprofits and other NGOs to source free trees for students across the nations. Our efforts will connect the BWSI alumni through a special place in the ground."}
                                    className={"h-full"}
                         />
-                    {/* </Flex>
-                    <Flex align="center" justify="center" className={"gap-8 my-20 h-96"}> */}
+                    </Flex>
+                    <Flex align="center" justify="center" className={"gap-10 my-20 h-96"}>
                         <AboutCard title={"OUR GOAL"}
                                    image={"https://images.unsplash.com/photo-1617050318658-a9a3175e34cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"}
                                    text={"We aim to offset BWSI’s carbon footprint given that a mature tree can absorb about 22 kg (48 lbs.) of CO₂ annually. As BWSI produces more alumni, more CO₂ emissions will be offset! These efforts will foster relationships amongst alumni, faculty, and speakers, thus paving the way for future collaborations and improving student career prospects. Each planted tree will stand as an enduring symbol of the transformational BWSI experience."}
