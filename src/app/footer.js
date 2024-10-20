@@ -19,17 +19,11 @@ export default function Footer() {
                         More about our mission and programs...
                     </a>
                     <p className="space-x-2">
-                        <a href="https://www.facebook.com/" aria-label="Facebook">
-                            <img src="/images/fb.png" className="inline block w-5 h-auto"/>
+                        <a href="https://www.linkedin.com/" aria-label="Linkedin">
+                            <img src="/images/linkedin.png" className="inline block w-5 h-auto"/>
                         </a>
                         <a href="https://instagram.com/" aria-label="Instagram">
-                            <img src="/images/insta.png" className="inline block w-5 h-auto"/></a>
-                        <a href="https://www.twitter.com/" aria-label="Twitter/X">
-                            <img src="/images/x.png" className="inline block w-5 h-auto"/>
-                        </a>
-                        <a href="https://www.pinterest.com/" aria-label="Pinterest">
-                            <img src="/images/pin.png" className="inline block w-5 h-auto"/>
-                        </a>
+                            <img src="/images/instagram.png" className="inline block w-5 h-auto"/></a>
                     </p>
                 </div>
                 <div
