@@ -15,8 +15,8 @@ export default function Navbar() {
                    className={"align-middle items-center text py-4 px-4 h-full border-l-[0.5px] border-r-[0.5px] hover:border-black border-creme hover:bg-dark-creme transition-all duration-300 ease-in-out"}>Map</a>
                 <a href={"/about"}
                    className={"align-middle items-center text py-4 px-4 h-full border-l-[0.5px] border-r-[0.5px] hover:border-black border-creme hover:bg-dark-creme transition-all duration-300 ease-in-out"}>About Us</a>
-                <a href={"/faq"}
-                   className={"align-middle items-center text py-4 px-4 h-full border-l-[0.5px] border-r-[0.5px] hover:border-black border-creme hover:bg-dark-creme transition-all duration-300 ease-in-out"}>FAQ</a>
+                {/* <a href={"/faq"}
+                   className={"align-middle items-center text py-4 px-4 h-full border-l-[0.5px] border-r-[0.5px] hover:border-black border-creme hover:bg-dark-creme transition-all duration-300 ease-in-out"}>FAQ</a> */}
                 <a href={"/contact"}
                    className={"align-middle items-center text py-4 px-4 h-full border-l-[0.5px] border-r-[0.5px] hover:border-black border-creme hover:bg-dark-creme transition-all duration-300 ease-in-out"}>Contact
                     Us</a>

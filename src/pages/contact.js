@@ -1,16 +1,20 @@
 import "../app/globals.css";
 import * as Form from '@radix-ui/react-form';
-import { Button, Text } from '@radix-ui/themes';
+import { Button, Text, Section } from '@radix-ui/themes';
 import {Layout} from "@/app/layout";
 
 export default function Contact() {
     return (
         <Layout>
-            <div className="flex flex-col items-center justify-center bg-light-gray p-10">
+            <div className="flex flex-col flex-grow items-center bg-light-gray bg-[url('/img/hero.jpg')] bg-cover">
                 <div className={"h-14"}></div>
-                <Text className="text-stone-700 font-proxima font-bold text-5xl">
-                    Contact Us
-                </Text>
+                <Section>
+                    <div className="relative w-screen h-48 bg-cover bg-center">
+                        <div className="flex flex-col items-start justify-center h-full pl-10">
+                            <p className="text-white font-extrabold text-6xl w-full font-proxima">CONTACT US</p>
+                        </div>
+                    </div>
+                </Section>
                 <Form.Root className="bg-creme p-6 rounded-lg shadow-xl w-1/2 my-10">
                     <Form.Field name="name">
                         <div className="flex items-baseline justify-between">

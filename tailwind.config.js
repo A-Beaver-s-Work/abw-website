@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'proxima': ['Proxima Nova', 'sans-serif'],
-        'proxima-h': ['Proxima Nova', 'Helvetica', 'sans-serif'],
+        'helvetica': ['Helvetica', 'sans-serif'],
       },
 
       fontSize: {
@@ -30,6 +30,17 @@ module.exports = {
         'custom-black': '#231F20',
         'custom-yellow': '#f3c851',
         'border-yellow': '#e3ab10',
+        "sage-green": {
+          100: "#DAE7DA",
+          200: "#B5CFB5",
+          300: "#9CBF9C",
+          400: "#90B690",
+          500: "#77A677",
+          600: "#619461",
+          700: "#406340",
+          800: "#283E28",
+          900: "#101910",
+        }
       },
     },
   },
