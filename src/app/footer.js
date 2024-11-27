@@ -7,22 +7,22 @@ export default function Footer() {
                 <div
                     className="border-stone-300 pl-8 pr-4 w-1/3 space-y-4 small-col-12-12 large-col-4-12 mission text-left">
                     <h6 className="py-2 text-stone-500 text-lg font-proxima font-bold uppercase">
-                        We inspire people to plant, nurture, and celebrate trees.
+                        We root for a future of carbon neutrality and innovation.
                     </h6>
                     <p className=" text-stone-500 font-serif text-base italic tracking-tighter">
-                        A Beaver's Work is a 501(c)(3) nonprofit conservation and education organization.
-                        A million members, donors, and partners support our programs to make our world greener and
-                        healthier.
+                        A Beaver's Work is a student-led effort at MIT’s Beaver Works Summer Institute.
+                        Many of the best and brightest students come together here to protect our planet’s precious resources.
+
                     </p>
                     <a href="/about/"
                        className="inline-block text-stone-500 font-proxima font-bold text-base uppercase hover:underline">
                         More about our mission and programs...
                     </a>
                     <p className="space-x-2">
-                        <a href="https://www.linkedin.com/" aria-label="Linkedin">
+                        <a href="https://www.linkedin.com/company/abeaverswork/" aria-label="Linkedin">
                             <img src="/images/linkedin.png" className="inline block w-5 h-auto"/>
                         </a>
-                        <a href="https://instagram.com/" aria-label="Instagram">
+                        <a href="https://www.instagram.com/abeaverswork/" aria-label="Instagram">
                             <img src="/images/instagram.png" className="inline block w-5 h-auto"/></a>
                     </p>
                 </div>
